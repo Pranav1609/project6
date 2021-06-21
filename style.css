@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#home {
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    height: 60vh;
+    width: 100%;
+    position: relative;
+}
+
+#home img{
+    padding-top: 50px;
+    height: 175px;
+    width: 175px;
+    border-radius: 50px;
+}
+
+#Hi {
+    background-color: cyan;
+}
+
+.line {
+    height: 25px;
+    width: 100%;
+}
+
+.menu{
+    text-align: right;
+    position: absolute;
+    z-index: 10;
+    list-style: none;
+}
+
+.menulist {
+    float: left;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+.menulist a{
+    color: white;
+    text-decoration: none;
+}
+
+.menulist a:hover{
+    font-weight: bold;
+    text-decoration: none;
+    background-color: purple;
+}
+
+#workiframe {
+    width: 90vh;
+    height: 80vh;
+}
+
+.btn {
+    width: 20px;
+    height: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 23px;;
+}
+
+.btn:hover {
+    width: 30px;
+    height: 20px;
+    background-color: rgb(2, 23, 177);
+    color: rgb(255, 8, 0);  
+}
+
+#Videos {
+    background-color:red;
+};
+
+#Education {
+    background-color:Cyan;
+};
+
+#Games {
+    background-color:blueviolet;
+};
+
+
+#contact {
+    background-color:blue;
+};
